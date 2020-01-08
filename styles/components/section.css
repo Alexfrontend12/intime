@@ -1,0 +1,24 @@
+.section {
+  padding-bottom: 72px;
+}
+.section-head-title {
+}
+.section-title {
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+.section-subtitle {
+  color: #455a63;
+}
+.section-image-big img {
+  height: 375px;
+}
+.section-image-medium img {
+  height: 301px;
+}
+.section-tab {
+  padding: 37px 0 20px 0;
+}
+.section-padding {
+  padding-bottom: 12px;
+}

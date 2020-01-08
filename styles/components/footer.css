@@ -1,0 +1,14 @@
+.footer {
+  position: relative;
+}
+.footer-list-foto {
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer-copywrite {
+  position: absolute;
+  right: 0;
+  padding: 37px 0;
+  font-size: 14px;
+  color: #282b2f;
+}

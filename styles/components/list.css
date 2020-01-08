@@ -1,0 +1,25 @@
+.list {
+  list-style-type: none;
+}
+.list-item {
+}
+.list-number {
+  list-style-type: decimal;
+  line-height: 250%;
+  padding-bottom: 18px;
+  padding-left: 0;
+  margin-left: 20px;
+}
+.list-link {
+  color: #1976d2;
+  text-decoration: underline;
+  font-style: italic;
+  line-height: 250%;
+  background: url(../../images/line-marker.png) left center no-repeat;
+  padding: 4px 0 4px 25px;
+}
+.list-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

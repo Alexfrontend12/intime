@@ -1,0 +1,28 @@
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 62px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.breadcrumb-item::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin: 0 10px;
+  background-image: url(../../images/right-arrow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.breadcrumb-item:last-child::after {
+  display: none;
+}
+.breadcrumb-item.is-active {
+  color: #78909c;
+}

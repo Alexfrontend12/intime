@@ -1,0 +1,32 @@
+.table {
+  font-size: 16px;
+  text-align: center;
+  line-height: 250%;
+  margin: 0;
+  width: 850px;
+  padding-top: 38px;
+  padding-bottom: 38px;
+  border-top: 2px solid #e0e9f0;
+  border-bottom: 2px solid #e0e9f0;
+}
+.table-caption {
+  display: inline-block;
+  padding-left: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+.table-head {
+  font-size: 18px;
+}
+.table-item {
+  font-style: normal;
+  font-size: 16px;
+}
+.table-link {
+  font-style: italic;
+  text-decoration: underline;
+  color: #1976d2;
+}
+.table-color {
+  background-color: #e0e9f0;
+}

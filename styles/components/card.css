@@ -1,0 +1,29 @@
+.card {
+}
+
+.card-title {
+  padding: 23px 0 12px 0;
+}
+
+.card-subtitle {
+  color: #455a63;
+  padding-bottom: 0;
+}
+
+.card-image img {
+}
+
+.card-image > img {
+  padding-top: 22px;
+}
+
+.card-link {
+  display: inline-block;
+  color: #009688;
+  text-decoration: underline;
+  padding: 27px 0 21px 0;
+}
+.card-time {
+  color: #bdc6ca;
+  font-size: 14px;
+}

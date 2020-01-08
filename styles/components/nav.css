@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+  /* border-top: 2px solid #e0e9f0;
+  border-bottom: 2px solid #e0e9f0;*/
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.nav .nav-item {
+  /* padding-right: 100px;*/
+}
+.nav .nav-item:hover {
+  text-decoration: none;
+  color: #009688;
+}
+
+.nav .is-active:hover {
+  color: black;
+}

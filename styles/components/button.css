@@ -1,0 +1,128 @@
+.button {
+  margin: 0;
+  border: 2px solid transparent;
+  border-radius: 0;
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 14px;
+  text-transform: none;
+  text-align: center;
+  text-decoration: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.button:hover {
+  text-decoration: none;
+}
+
+.button-large {
+  padding: 32px 64px;
+  font-size: 20px;
+}
+.button-medium {
+  padding: 16px 32px;
+  font-size: 16px;
+}
+.button-small {
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.button-primary {
+  background-color: #4dffea;
+  color: #000000;
+}
+
+.button-primary:hover {
+  background-color: #000000;
+  color: #4dffea;
+  border-color: #4dffea;
+}
+
+.button-success {
+  background-color: green;
+  color: #ffffff;
+}
+
+.button-success:hover {
+  background-color: transparent;
+  color: green;
+  border-color: green;
+}
+
+.button-danger {
+  background-color: red;
+  color: #ffffff;
+}
+
+.button-danger:hover {
+  background-color: transparent;
+  color: red;
+  border-color: red;
+}
+
+.button-warning {
+  background-color: yellow;
+  color: #ffffff;
+}
+
+.button-warning:hover {
+  background-color: transparent;
+  color: yellow;
+  border-color: yellow;
+}
+
+.button-active {
+  background-color: #009688;
+  color: #fefefe;
+  padding: 17px 52px;
+  border: 2px solid #009688;
+}
+.button-active:hover {
+  background-color: white;
+  color: #009688;
+}
+.button-no-active {
+  background-color: white;
+  color: #009688;
+  padding: 17px 52px;
+  border: 2px solid #009688;
+  border-bottom: 2px solid #009688;
+}
+.button-no-active:hover {
+  background-color: #009688;
+  color: white;
+}
+.button-aside {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 14px 80px 14px 70px;
+  border: 2px solid #009688;
+  color: #009688;
+  background-color: white;
+  font-size: 18px;
+}
+.button-aside-icon::after {
+  content: "";
+  width: 16px;
+  height: 14px;
+  display: inline-block;
+  margin: 0 10px;
+  background-image: url(../../images/left-arrow@1X.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.button-aside:hover {
+  color: white;
+  background-color: #009688;
+  border: 2px solid white;
+}
+.button-form {
+  width: 100%;
+  padding: 18px 90px 18px 92px;
+  background-color: #009688;
+  color: white;
+  font-size: 18px;
+}
